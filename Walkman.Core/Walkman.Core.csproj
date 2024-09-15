@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="Interfaces\PlayerModule\" />
+    <None Remove="Interfaces\SearchModule\" />
+    <None Remove="Interfaces\ShortSongInfoModule\" />
+    <None Remove="Interfaces\RecentSongModule\" />
+    <None Remove="Interfaces\PopularModule\" />
+    <None Remove="Models\" />
+    <None Remove="Interfaces\PopularGenreModule\" />
+    <None Remove="Interfaces\NowPlayingModule\" />
+    <None Remove="Interfaces\DownloadSongModule\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\PlayerModule\" />
+    <Folder Include="Interfaces\SearchModule\" />
+    <Folder Include="Interfaces\ShortSongInfoModule\" />
+    <Folder Include="Interfaces\RecentSongModule\" />
+    <Folder Include="Interfaces\PopularModule\" />
+    <Folder Include="Models\" />
+    <Folder Include="Interfaces\PopularGenreModule\" />
+    <Folder Include="Interfaces\NowPlayingModule\" />
+    <Folder Include="Interfaces\DownloadSongModule\" />
+  </ItemGroup>
+</Project>
